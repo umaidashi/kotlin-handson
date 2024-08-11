@@ -1,0 +1,14 @@
+services:
+  crud-api-db:
+    image: postgres:latest
+    container_name: crud-api-db
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: db
+      POSTGRES_INIT_DB_ARGS: --encoding=UTF-8
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d
