@@ -18,11 +18,11 @@ import org.springframework.boot.runApplication
             description = "Local Server",
             url = "http://localhost:8080",
         ),
-   ],
+    ],
 )
-class ImplementingServerSideKotlinDevelopmentApplication
+class KotrlinDddApplication
 
 fun main(args: Array<String>) {
     @Suppress("SpreadOperator")
-    runApplication<ImplementingServerSideKotlinDevelopmentApplication>(*args)
+    runApplication<KotrlinDddApplication>(*args)
 }
