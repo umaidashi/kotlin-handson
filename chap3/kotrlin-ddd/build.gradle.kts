@@ -51,6 +51,9 @@ dependencies {
 	testImplementation("net.jqwik:jqwik-kotlin:1.8.2")
 	implementation("org.springframework.boot:spring-boot-starter-validation")
 	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0")
+	implementation("com.github.database-rider:rider-core:1.41.0")
+	implementation("com.github.database-rider:rider-spring:1.41.0")
+	testImplementation("com.github.database-rider:rider-junit5:1.41.0")
 }
 
 openApi {
