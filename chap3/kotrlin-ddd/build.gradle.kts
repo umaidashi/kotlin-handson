@@ -43,6 +43,8 @@ dependencies {
 	dokkaHtmlPlugin("org.jetbrains.dokka:kotlin-as-java-plugin:1.9.20")
 	implementation("io.arrow-kt:arrow-core:1.2.1")
 	testImplementation("org.assertj:assertj-core:3.25.2")
+	testImplementation("net.jqwik:jqwik:1.8.2")
+	testImplementation("net.jqwik:jqwik-kotlin:1.8.2")
 }
 
 kotlin {
