@@ -38,8 +38,10 @@ dependencies {
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
+	//	added
 	detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.21.0")
 	dokkaHtmlPlugin("org.jetbrains.dokka:kotlin-as-java-plugin:1.9.20")
+	implementation("io.arrow-kt:arrow-core:1.2.1")
 }
 
 kotlin {
