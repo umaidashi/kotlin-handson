@@ -42,6 +42,7 @@ dependencies {
 	detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.21.0")
 	dokkaHtmlPlugin("org.jetbrains.dokka:kotlin-as-java-plugin:1.9.20")
 	implementation("io.arrow-kt:arrow-core:1.2.1")
+	testImplementation("org.assertj:assertj-core:3.25.2")
 }
 
 kotlin {
